@@ -13,8 +13,8 @@
 
 **أجمع بين تحليل البيانات وتطوير الويب والاستفادة الفعّالة من الذكاء الاصطناعي لبناء حلول عملية، وتحويل البيانات إلى رؤى، والأفكار إلى تجارب رقمية ذات قيمة، مع إبقاء التفكير البشري والخبرة أساسًا لكل قرار.**
 
-### 🌐 [رابط المعاينة المباشرة على Vercel اضغط هنا](https://portfolio-lemon-eight-n87h9hlh6i.vercel.app)
-**Live Demo:** [https://portfolio-lemon-eight-n87h9hlh6i.vercel.app](https://portfolio-lemon-eight-n87h9hlh6i.vercel.app)
+### 🌐 [رابط المعاينة المباشرة على Vercel اضغط هنا](https://loqmanalhetari.vercel.app)
+**Live Demo:** [https://loqmanalhetari.vercel.app](https://loqmanalhetari.vercel.app)
 
 </div>
 
