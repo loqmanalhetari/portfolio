@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MapPin, ArrowDown, MessageCircle, Clock, Sparkles } from 'lucide-react';
+import { MapPin, ArrowDown, MessageCircle, Sparkles } from 'lucide-react';
 import { HeroCanvas3D } from './HeroCanvas3D';
 
 interface HeroProps {
@@ -19,27 +19,6 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = ({ lang, darkMode = false, content }) => {
-  // 1. Live Sana'a Clock (GMT+3)
-  const [sanaaTime, setSanaaTime] = useState<string>('');
-
-  useEffect(() => {
-    const updateTime = () => {
-      const now = new Date();
-      // Format in Sana'a time (Asia/Riyadh / GMT+3)
-      const formatted = new Intl.DateTimeFormat(lang === 'ar' ? 'ar-YE' : 'en-US', {
-        timeZone: 'Asia/Riyadh',
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit',
-        hour12: true,
-      }).format(now);
-      setSanaaTime(formatted);
-    };
-
-    updateTime();
-    const interval = setInterval(updateTime, 1000);
-    return () => clearInterval(interval);
-  }, [lang]);
 
   // 2. Dynamic Rotating Headline Pillars
   const rolesAr = [
@@ -89,29 +68,9 @@ export const Hero: React.FC<HeroProps> = ({ lang, darkMode = false, content }) =
             className="lg:col-span-7"
           >
             
-            {/* Live Status Pill with Live UTC Clock & Location */}
+            {/* Location & Specialization Badge */}
             <div className="flex flex-wrap items-center gap-2.5 sm:gap-3 mb-6 text-xs sm:text-sm font-semibold">
-              
-              {/* Pulsing Active Status Pill */}
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 dark:bg-emerald-500/15 border border-emerald-500/25 text-emerald-700 dark:text-emerald-400 shadow-2xs">
-                <span className="relative flex h-2.5 w-2.5">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
-                </span>
-                <span>{lang === 'ar' ? 'متاح للعمل المباشر وعن بُعد' : 'Open for Roles & Remote'}</span>
-              </div>
-
-              {/* Live Sana'a Clock */}
-              {sanaaTime && (
-                <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-mono text-xs shadow-2xs">
-                  <Clock className="w-3.5 h-3.5 text-brand-blue dark:text-sky-400" />
-                  <span>{sanaaTime}</span>
-                  <span className="text-[10px] text-slate-400">({lang === 'ar' ? 'صنعاء GMT+3' : 'Sanaa GMT+3'})</span>
-                </div>
-              )}
-
-              {/* MIS Specialization */}
-              <span className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 text-xs">
+              <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800/90 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 text-xs shadow-2xs">
                 <MapPin className="w-3.5 h-3.5 text-brand-blue dark:text-sky-400" />
                 <span>{content.location}</span>
               </span>

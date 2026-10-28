@@ -9,8 +9,12 @@
 ![Three.js](https://img.shields.io/badge/Three.js-WebGL-000000?style=for-the-badge&logo=threedotjs)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
 
 **أجمع بين تحليل البيانات وتطوير الويب والاستفادة الفعّالة من الذكاء الاصطناعي لبناء حلول عملية، وتحويل البيانات إلى رؤى، والأفكار إلى تجارب رقمية ذات قيمة، مع إبقاء التفكير البشري والخبرة أساسًا لكل قرار.**
+
+### 🌐 [رابط المعاينة المباشرة على Vercel اضغط هنا](https://portfolio-lemon-eight-n87h9hlh6i.vercel.app)
+**Live Demo:** [https://portfolio-lemon-eight-n87h9hlh6i.vercel.app](https://portfolio-lemon-eight-n87h9hlh6i.vercel.app)
 
 </div>
 
@@ -35,11 +39,10 @@
 
 لم أرد لهذا البورتفوليو أن يكون مجرد سيرة ذاتية مسطحة أو صفحة نصوص جامدة، بل قمت بهندسته وتصميمه ليكون **تطبيقاً تفاعلياً حياً (Interactive Digital Showcase)** يثبت عملياً قدراتي في هندسة الويب وتصميم تجارب المستخدم (UI/UX) العالمية:
 
-### ⚡ 1. الواجهة الأولى الحية (The Living Hero Section):
-- **شارة الحالة الحية (Live Pulse Indicator):** وسم أخضر نابض يعلن التفرغ التام للعمل الحضوري وعن بُعد (`● متاح للعمل المباشر وعن بُعد`).
-- **ساعة رقمية حية بتوقيت صنعاء (`GMT+3`):** تعمل لحظياً بالثواني لتعكس الحيوية والتحديث المستمر.
-- **عنوان حركي ديناميكي (Role Rotator):** يتبدل بسلاسة فيزيائية بين التخصصات الثلاثة لإيصال القيمة المهنية في ثوانٍ معدودة.
+### ⚡ 1. الواجهة الأولى التفاعلية (The Hero Section):
+- **عنوان حركي ديناميكي (Dynamic Role Rotator):** يتبدل بسلاسة فيزيائية بين الركائز الثلاث لإيصال القيمة المهنية في ثوانٍ معدودة.
 - **مجسم بيانات ثلاثي الأبعاد تفاعلي (Three.js WebGL):** مجسم شبكي كروي إجرائي يدور بخفة متناهية ويتفاعل مع حركة المؤشر ولمس الهاتف بدون أي هبوط في الفريمات (ثابت على **60 FPS**).
+- **شارة التخصص والموقع الجغرافي:** تحديد المقر والتخصص الأكاديمي والعملي في نظم المعلومات الإدارية (MIS) بصنعاء، اليمن.
 
 ### 🔮 2. مصفوفة المهارات الذكية (Spotlight & Telemetry Matrix):
 - **تأثير الإضاءة التفاعلية (Spotlight Radial Glow):** بطاقات تفاعلية تتبع حركة الفأرة وإصبع المستخدم بهالة ضوئية خافتة مستوحاة من كبرى منصات التقنية العالمية (Linear & Vercel).
