@@ -162,8 +162,8 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Desktop Download Resume */}
           <a
-            href="./CV_Loqman_Data_Analyst_Guide.md"
-            download="CV_Loqman_AlHetari.md"
+            href="./Loqman_AlHetari_CV.pdf"
+            download="Loqman_AlHetari_CV.pdf"
             className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1 text-xs font-medium rounded-lg bg-ink dark:bg-sky-500 text-white hover:bg-brand-blue dark:hover:bg-sky-600 transition-all active:scale-95 shadow-2xs"
           >
             <Download className="w-3.5 h-3.5" />
@@ -271,7 +271,7 @@ export const Header: React.FC<HeaderProps> = ({
               {/* Direct Quick Action Buttons (WhatsApp & CV) */}
               <div className="space-y-2 pt-4 border-t border-slate-100 dark:border-slate-800">
                 <a
-                  href="https://wa.me/967775176166"
+                  href="https://wa.me/967772350130"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={handleLinkClick}
@@ -282,8 +282,8 @@ export const Header: React.FC<HeaderProps> = ({
                 </a>
 
                 <a
-                  href="./CV_Loqman_Data_Analyst_Guide.md"
-                  download="CV_Loqman_AlHetari.md"
+                  href="./Loqman_AlHetari_CV.pdf"
+                  download="Loqman_AlHetari_CV.pdf"
                   onClick={handleLinkClick}
                   className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-ink dark:text-slate-200 font-bold text-xs sm:text-sm hover:bg-slate-100 dark:hover:bg-slate-800 transition-all active:scale-95"
                 >
